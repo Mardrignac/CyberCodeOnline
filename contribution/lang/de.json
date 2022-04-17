@@ -25,14 +25,14 @@
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Gib die Menge an die du einzahlen möchtest",
+ 	 	 	 	 	"trans": "Gib die Menge an, die du einzahlen möchtest",
  	 	 	 	 	"eng": "Please enter amount you want to deposit"
  	 	 	 	},
  	 	 	 	"detail": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} Bitcoin werden auf das Gang-Konto eingezahlt, dies kann nicht rückgängig gemacht werden",
+ 	 	 	 	 	"trans": "${amount} Bitcoin werden auf das Gang-Konto eingezahlt, dies kann nicht rückgängig gemacht werden.",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
@@ -82,7 +82,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"nextUpkeepDate"
  	 	 	 	],
- 	 	 	 	"trans": "Nächster Wartungstermin: ${nextUpkeepDate}",
+ 	 	 	 	"trans": "Nächster Abrechnungsstermin: ${nextUpkeepDate}",
  	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
  	 	 	},
  	 	 	"insufficientError": {
@@ -99,7 +99,7 @@
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "Es hat noch keine Gang dieses Gebiet besetzt",
+ 	 	 	 	 	"trans": "Keine Gang hat dieses Gebiet bisher besetzt.",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	},
@@ -114,7 +114,7 @@
  	 	 	 	"eng": "Community Content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Dieser Inhalt wird von der Community beigetragen. Klicke hier, um eigenen Inhalt Beizutragen.",
+ 	 	 	 	"trans": "Dieser Inhalt wird von der Community erstellt. Klicke hier, um einen eigenen Inhalt beizutragen.",
  	 	 	 	"eng": "This content is contributed by the community. click here to contribute your own content."
  	 	 	}
  	 	},
@@ -131,7 +131,7 @@
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Sie haben eine gesperrte Beutekiste mit Farbtastatur gefunden, die Sie mit der korrekten Farbe der Farben entsperren können.",
+ 	 	 	 	 	"trans": "Sie haben eine gesperrte Beutekiste mit Farbtastatur gefunden, die Sie mit der korrekten Reihenfolge der Farben entsperren können.",
  	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
  	 	 	 	},
  	 	 	 	"progress": {
@@ -145,7 +145,7 @@
  	 	 	 	 	"eng": "seconds"
  	 	 	 	},
  	 	 	 	"colorBox": {
- 	 	 	 	 	"trans": "Klicken Sie unten auf diese Farbe",
+ 	 	 	 	 	"trans": "Klicken Sie unten auf diese Farbe.",
  	 	 	 	 	"eng": "Click on this color below"
  	 	 	 	},
  	 	 	 	"lose": {
@@ -154,12 +154,12 @@
  	 	 	 	 	 	"eng": "Decryption failed"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Klicken Sie auf die richtige Farbfolge, um freizuschalten",
+ 	 	 	 	 	 	"trans": "Klicken Sie auf die richtige Farbfolge, um freizuschalten.",
  	 	 	 	 	 	"eng": "Click on the correct color sequence to unlock"
  	 	 	 	 	},
  	 	 	 	 	"button": {
  	 	 	 	 	 	"title": {
- 	 	 	 	 	 	 	"trans": "Versuch es noch einmal",
+ 	 	 	 	 	 	 	"trans": "Erneut versuchen",
  	 	 	 	 	 	 	"eng": "Try Again"
  	 	 	 	 	 	}
  	 	 	 	 	}
@@ -168,7 +168,7 @@
  	 	},
  	 	"supportUkraine": {
  	 	 	"description": {
- 	 	 	 	"trans": "Die Menschen in der Ukraine, Russland und die ganze Welt leiden, weil der Ehrgeiz eines Mannes. \\ N LIEBE EXPLOIT, NICHT Krieg.",
+ 	 	 	 	"trans": "Die Menschen in der Ukraine, in Russland und in der ganze Welt leiden, wegen des Ehrgeizes eines Mannes. \\ N NUTZE die LIEBE , NICHT den KRIEG.",
  	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
  	 	 	}
  	 	},
@@ -194,7 +194,7 @@
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVault": {
- 	 	 	 	"trans": "Gegenstand Lagern ",
+ 	 	 	 	"trans": "Gegenstand lagern ",
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
@@ -213,36 +213,36 @@
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "Upgrade auf ${upgradeToSlot} Slots",
+ 	 	 	 	"trans": "Upgrade auf ${upgradeToSlot} Plätze",
  	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
  	 	 	},
  	 	 	"upgradeSlotDesc": {
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "Erhöhe die maximale Anzahl von Gegenständen, die du in deinem Tresor aufbewahren kannst, auf ${upgradeToSlot}",
+ 	 	 	 	"trans": "Erhöhe die maximale Anzahl an Gegenständen, die du in deinem Tresor aufbewahren kannst, auf ${upgradeToSlot}.",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
- 	 	 	 	 	"trans": "Wie viele willst du in den Tresor legen?",
+ 	 	 	 	 	"trans": "Wie viel willst du in den Tresor legen?",
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
- 	 	 	 	 	"trans": "Wie viele willst du aus den Tresor nehmen",
+ 	 	 	 	 	"trans": "Wie viel willst du aus dem Tresor nehmen?",
  	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	},
  	 	 	 	"selectDeposit": {
- 	 	 	 	 	"trans": "Wie viel möchtest du Einzahlen?",
+ 	 	 	 	 	"trans": "Wie viel möchtest du einzahlen?",
  	 	 	 	 	"eng": "How much would you like to deposit?"
  	 	 	 	},
  	 	 	 	"selectWithdraw": {
- 	 	 	 	 	"trans": "Wie viel möchtest du Auszahlen?",
+ 	 	 	 	 	"trans": "Wie viel möchtest du abheben?",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
- 	 	 	 	"trans": "Du kannst nichts abheben, wenn du kein Guthaben hast.",
+ 	 	 	 	"trans": "Du kannst nichts abheben, wenn dein Konto leer ist.",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
  	 	 	}
  	 	},
@@ -262,7 +262,7 @@
  	 	 	 	},
  	 	 	 	"tertiary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Schwer.",
+ 	 	 	 	 	 	"trans": "Schwer",
  	 	 	 	 	 	"eng": "Destruct."
  	 	 	 	 	}
  	 	 	 	}
@@ -270,11 +270,11 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "Du hast einen alten verschlossenen Safe gefunden, sieht aus als wäre dort ein Zettel mit einem Text darauf.",
+ 	 	 	 	"trans": "Du hast einen alten verschlossenen Safe gefunden, sieht aus, als wäre dort ein Zettel mit einem Text darauf.",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "PIN-Code zum Entsperren erforderlich",
+ 	 	 	 	"trans": "PIN-Code zum Entsperren erforderlich.",
  	 	 	 	"eng": "Pin code required to unlock"
  	 	 	},
  	 	 	"inputLabel": {
@@ -303,7 +303,7 @@
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
- 	 	 	 	"trans": "Links sind nicht erlaubt!",
+ 	 	 	 	"trans": "Links sind nicht erlaubt",
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
@@ -315,14 +315,14 @@
  	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
  	 	 	},
  	 	 	"shortChatBlock": {
- 	 	 	 	"trans": "Bitte versende keine Kurznachrichten, probiere stattdessen einen längeren Satz.",
+ 	 	 	 	"trans": "Bitte versende keine zu kurzen Texte, probiere einen längeren Satz.",
  	 	 	 	"eng": "Please do not send short messages, try a longer sentence instead."
  	 	 	},
  	 	 	"underlevelChatBlock": {
  	 	 	 	"vars": [
  	 	 	 	 	"minLevel"
  	 	 	 	],
- 	 	 	 	"trans": "Du musst mindestens Level ${minLevel} sein, um Chat-Nachrichten zu versenden",
+ 	 	 	 	"trans": "Du musst mindestens Level ${minLevel} sein, um Chat-Nachrichten zu versenden.",
  	 	 	 	"eng": "You need to be at least level ${minLevel} to send chat messages"
  	 	 	},
  	 	 	"chat": {
@@ -379,12 +379,12 @@
  	 	"equipment": {
  	 	 	"lowPrintLevelTip": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Niedrige 3D-Druck Fähigkeiten",
+ 	 	 	 	 	"trans": "Niedrige 3D-Druck-Fähigkeit",
  	 	 	 	 	"eng": "Low Printing Rank"
  	 	 	 	}
  	 	 	},
  	 	 	"lowPrintLevelTip2": {
- 	 	 	 	"trans": "Erhöhen deine 3D-Druck Fähigkeiten, um leistungsfähigere Waffen zu erstellen, indem du mehr Caches druckst",
+ 	 	 	 	"trans": "Um leistungsfähigere Waffen zu erstellen, erhöhen deine 3D-Druck-Fähigkeit, indem du mehr Caches druckst.",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
  	 	 	},
  	 	 	"quickSlots": {
@@ -399,13 +399,13 @@
  	 	"quickSlot": {
  	 	 	"unbindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Aus Schnellzugriff Entfernen?",
+ 	 	 	 	 	"trans": "Aus Schnellzugriff entfernen?",
  	 	 	 	 	"eng": "Unbind quick slot?"
  	 	 	 	}
  	 	 	},
  	 	 	"bindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Wähle einen nutzbaren Gegenstand aus, um ihn an den Schnellzugriff zu binden",
+ 	 	 	 	 	"trans": "Wähle einen nutzbaren Gegenstand aus, um ihn als Schnellzugriff hinzuzufügen.",
  	 	 	 	 	"eng": "Select a usable item to bind to a quick slot"
  	 	 	 	}
  	 	 	}
@@ -416,7 +416,7 @@
  	 	 	 	"eng": "All Apps"
  	 	 	},
  	 	 	"dungeonList": {
- 	 	 	 	"trans": "Dungeon Liste",
+ 	 	 	 	"trans": "Dungeonliste",
  	 	 	 	"eng": "Dungeon List"
  	 	 	},
  	 	 	"links": {
@@ -451,11 +451,11 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Globaler Zeitsprung (${timeSkipMinutes} min, Kosten ${timeSkipCost} Einheiten)",
+ 	 	 	 	 	"trans": "Globaler Zeitsprung: (${timeSkipMinutes} min, Kosten: ${timeSkipCost} Einheiten)",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Globale Zeitsprünge ermöglicht es dir, AFK-Wartezeiten zu überspringen und sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die AFK-Aufgaben durchführen",
+ 	 	 	 	 	"trans": "Globale Zeitsprünge ermöglicht es dir, AFK-Wartezeiten zu überspringen und sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die AFK-Aufgaben durchführen.",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -464,7 +464,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Gratis Zeitsprung (${itemSkipMinutes} min)",
+ 	 	 	 	 	"trans": "Gratis Zeitsprung: (${itemSkipMinutes} min)",
  	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -472,7 +472,7 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Verwende einen ${timeSkipItemName}, um ${itemSkipMinutes} Minuten zu überspringen",
+ 	 	 	 	 	"trans": "Verwende 1 ${timeSkipItemName}, um ${itemSkipMinutes} Minuten zu überspringen.",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
@@ -482,7 +482,7 @@
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Globale Zeitsprünge überspringen die Wartezeit für alle Spieler, die AFK Aufgaben durchführen",
+ 	 	 	 	 	"trans": "Globale Zeitsprünge überspringen die Wartezeit für alle Spieler, die AFK-Aufgaben durchführen.",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -495,12 +495,12 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Beschleunigt von ${skippingPlayerCount} Benutzern..",
+ 	 	 	 	 	"trans": "Beschleunigt von ${skippingPlayerCount} Benutzern.",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Globale Zeitsprünge ermöglicht es dir, AFK-Wartezeiten zu überspringen und sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die AFK Aufgabe durchführen",
+ 	 	 	 	"trans": "Globale Zeitsprünge ermöglicht es dir, AFK-Wartezeiten zu überspringen und sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die AFK-Aufgaben durchführen.",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
  	 	 	}
  	 	},
@@ -545,31 +545,31 @@
  	 	"communityItemLore": {
  	 	 	"noLoreButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Anleitung erstellen",
+ 	 	 	 	 	"trans": "Community-Hintergrundgeschichte erschaffen",
  	 	 	 	 	"eng": "Create Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Es gibt noch keine Community-Anleitung für diesen Gegenstand. Sei der Erste, der eine Erstellt.",
+ 	 	 	 	 	"trans": "Es gibt noch keine Community-Hintergrundgeschichte für diesen Gegenstand. Sei der Erste, der eine erstellt.",
  	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Community-Anleitung",
+ 	 	 	 	 	"trans": "Community-Hintergrundgeschichte",
  	 	 	 	 	"eng": "Community Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Öffne die Community-Anleitung für diesen Gegenstand",
+ 	 	 	 	 	"trans": "Zeige die Community-Hintergrundgeschichte für diesen Gegenstand.",
  	 	 	 	 	"eng": "Open the community lore for this item"
  	 	 	 	}
  	 	 	},
  	 	 	"editButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Bearbeite diese Anleitung",
+ 	 	 	 	 	"trans": "Community-Hintergrundgeschichte bearbeiten",
  	 	 	 	 	"eng": "edit this lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Bearbeite diese Community-Anleitung",
+ 	 	 	 	 	"trans": "Bearbeite diese Community-Hintergrundgeschichte",
  	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
@@ -581,19 +581,19 @@
  	 	 	 	 	"eng": "Malfunctioned"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "Dieser Gegenstand ist kaputt, bring ihn zur Reparatur zum Waffenschmied",
+ 	 	 	 	 	"trans": "Dieser Gegenstand ist kaputt, bring ihn zur Reparatur zum Waffenschmied.",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
  	 	 	"upgradeModuleTitle": {
- 	 	 	 	"trans": "Upgrade ${index}",
+ 	 	 	 	"trans": "Verbesserung ${index}",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
  	 	 	 	]
  	 	 	},
  	 	 	"areaEffect": {
- 	 	 	 	"trans": "[Effektiv] Der Effekt dieses Gegenstands gilt auch für Verbündete im Kampf.",
+ 	 	 	 	"trans": "[Gruppe] Der Effekt dieses Gegenstands gilt auch für Verbündete im Kampf.",
  	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
@@ -601,7 +601,7 @@
  	 	 	 	"eng": "Equip"
  	 	 	},
  	 	 	"cantEquip": {
- 	 	 	 	"trans": "Dein Level ist für diesen Gegenstand zu niedrig",
+ 	 	 	 	"trans": "Dein Level ist für diesen Gegenstand zu niedrig.",
  	 	 	 	"eng": "Your level is too low for this item"
  	 	 	},
  	 	 	"unequip": {
@@ -613,7 +613,7 @@
  	 	 	 	"eng": "Use"
  	 	 	},
  	 	 	"unlock": {
- 	 	 	 	"trans": "Freischalten",
+ 	 	 	 	"trans": "Entsperren",
  	 	 	 	"eng": "Unlock"
  	 	 	},
  	 	 	"lock": {
@@ -621,7 +621,7 @@
  	 	 	 	"eng": "Lock"
  	 	 	},
  	 	 	"lockDescription": {
- 	 	 	 	"trans": "Verhindert versehentliches Verkaufen oder Zerstören",
+ 	 	 	 	"trans": "Verhindert versehentliches verkaufen oder zerstören",
  	 	 	 	"eng": "Prevents accidental selling or destroying"
  	 	 	}
  	 	},
@@ -632,16 +632,16 @@
  	 	 	},
  	 	 	"itemUpgradeButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Aktualisierung",
+ 	 	 	 	 	"trans": "Verbesserung",
  	 	 	 	 	"eng": "upgrade"
  	 	 	 	}
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Die gesamte Kalibrierung (Verbesserung) deines Gegenstands wird zurückgesetzt. Dadurch wird er wieder handelbar. \n      Möchtest du wirklich fortfahren?",
+ 	 	 	 	 	"trans": "Die gesamte Verbesserung (Kalibrierung) deines Gegenstands wird zurückgesetzt. Dadurch wird er wieder handelbar. \n      Möchtest du wirklich fortfahren?",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
  	 	 	 	},
- 	 	 	 	"trans": "Auf Werkseinstellungen zurückgesetzt",
+ 	 	 	 	"trans": "Auf Werkseinstellungen zurücksetzen",
  	 	 	 	"eng": "Factory Reset"
  	 	 	}
  	 	},
@@ -651,29 +651,29 @@
  	 	 	 	"eng": "Secret Keys"
  	 	 	},
  	 	 	"noKeysTitle": {
- 	 	 	 	"trans": "Du hast keine geheimen Schlüssel",
+ 	 	 	 	"trans": "Du hast keine geheimen Schlüssel.",
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
- 	 	 	 	"trans": "Du kannst geheime Schlüssel aus Dungeons erhalten",
+ 	 	 	 	"trans": "Du kannst geheime Schlüssel aus Dungeons erhalten.",
  	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"backToPreviusLoc": {
  	 	 	"longPressBackToCity": {
- 	 	 	 	"trans": "Lange drücken, um zum Zentrum zurückzukehren",
+ 	 	 	 	"trans": "Lange drücken, um zum Zentrum zurückzukehren.",
  	 	 	 	"eng": "Long press to go back to city"
  	 	 	}
  	 	},
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
- 	 	 	 	 	"trans": "System Inaktiv",
+ 	 	 	 	 	"trans": "System inaktiv",
  	 	 	 	 	"eng": "system idle"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Bitte setze einen Gegenstand ein",
- 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	 	"trans": "Bitte füge einen Gegenstand hinzu.",
+ 	 	 	 	 	"eng": "Please insert an item"
  	 	 	 	}
  	 	 	},
  	 	 	"selectItemButton": {
@@ -682,7 +682,7 @@
  	 	 	},
  	 	 	"selectAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Bitte wähle einen Betrag aus",
+ 	 	 	 	 	"trans": "Bitte wähle eine Menge aus.",
  	 	 	 	 	"eng": "Please select amount"
  	 	 	 	},
  	 	 	 	"subtitle": {
@@ -696,7 +696,7 @@
  	 	},
  	 	"notificationCenter": {
  	 	 	"deleteTip": {
- 	 	 	 	"trans": "Lange Drücken Sie zum Löschen",
+ 	 	 	 	"trans": "Lange drücken, um zu löschen",
  	 	 	 	"eng": "Long press to delete"
  	 	 	}
  	 	},
@@ -709,7 +709,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"hiddenCount"
  	 	 	 	],
- 	 	 	 	"trans": "${hiddenCount} An diesem Ort können weitere interaktive Elemente freigeschaltet werden. Steigen im Level, um sie freizuschalten",
+ 	 	 	 	"trans": "${hiddenCount} weitere interaktive Elemente können an diesem Ort freigeschaltet werden. Steige im Level auf, um sie freizuschalten.",
  	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
  	 	 	},
  	 	 	"travel": {
@@ -719,14 +719,14 @@
  	 	},
  	 	"npc": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "Dies ist noch nicht freigeschaltet, versuche, deinen Charakter zu leveln",
+ 	 	 	 	"trans": "Dies ist noch nicht freigeschaltet, steige weiter im Level auf.",
  	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
  	 	 	},
  	 	 	"repairItems": {
  	 	 	 	"vars": [
  	 	 	 	 	"repairFee"
  	 	 	 	],
- 	 	 	 	"trans": "Alle Gegenstände für (${repairFee} Bitcoin) reparieren ",
+ 	 	 	 	"trans": "Alle Gegenstände für ${repairFee} BTC reparieren.",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
  	 	 	},
  	 	 	"molecularPrinter": {
@@ -735,18 +735,18 @@
  	 	 	 	 	 	"vars": [
  	 	 	 	 	 	 	"level"
  	 	 	 	 	 	],
- 	 	 	 	 	 	"trans": "Druckstufe ${level} Ausrüstungen",
+ 	 	 	 	 	 	"trans": "3D-Druck-Level ${level}",
  	 	 	 	 	 	"eng": "printing level ${level} equipments"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Der Ausstattungsdruck basiert auf Ihrem Druckrang, steigt Ihr Druckrang auf, indem Sie weitere Artikel drucken",
+ 	 	 	 	 	 	"trans": "Das Level der gedruckten Ausrüstung basiert auf deinem 3D-Druck-Level. Erhöhe diesen, indem du weitere Gegenstände druckst.",
  	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
  	 	 	 	 	}
  	 	 	 	}
  	 	 	},
  	 	 	"buyUnit": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Units Kaufen",
+ 	 	 	 	 	"trans": "Einheiten kaufen",
  	 	 	 	 	"eng": "Buy Unit"
  	 	 	 	}
  	 	 	}
